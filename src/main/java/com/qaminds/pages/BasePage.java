@@ -28,7 +28,7 @@ public class BasePage {
 		return driver;
 	}
 	
-	public void waitVisibility(By locator) {
+	protected void waitVisibility(By locator) {
 		try {
 		 wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 		} catch (TimeoutException e){

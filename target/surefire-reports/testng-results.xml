@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="MySuiteAppium" duration-ms="10937" started-at="2019-11-09T12:12:09 CST" finished-at="2019-11-09T12:12:20 CST">
+  <suite name="MySuiteAppium" duration-ms="20452" started-at="2019-11-23T13:12:10 CST" finished-at="2019-11-23T13:12:30 CST">
     <groups>
     </groups>
-    <test name="MyTestAppium" duration-ms="10937" started-at="2019-11-09T12:12:09 CST" finished-at="2019-11-09T12:12:20 CST">
-      <class name="com.qaminds.testget_apptive.IntroductionTest">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.qaminds.testget_apptive.IntroductionTest@47c62251]" name="BeforeSuite" is-config="true" duration-ms="8157" started-at="2019-11-09T12:12:09 CST" finished-at="2019-11-09T12:12:17 CST">
+    <test name="MyTestAppium" duration-ms="20452" started-at="2019-11-23T13:12:10 CST" finished-at="2019-11-23T13:12:30 CST">
+      <class name="com.qaminds.testget_apptive.RegistroTest">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.qaminds.testget_apptive.RegistroTest@47c62251]" name="BeforeSuite" is-config="true" duration-ms="9485" started-at="2019-11-23T13:12:10 CST" finished-at="2019-11-23T13:12:19 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="validationTest()[pri:0, instance:com.qaminds.testget_apptive.IntroductionTest@47c62251]" name="validationTest" duration-ms="2747" started-at="2019-11-09T12:12:17 CST" finished-at="2019-11-09T12:12:20 CST">
+        <test-method status="PASS" signature="validationTest()[pri:0, instance:com.qaminds.testget_apptive.RegistroTest@47c62251]" name="validationTest" duration-ms="10938" started-at="2019-11-23T13:12:19 CST" finished-at="2019-11-23T13:12:30 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validationTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qaminds.testget_apptive.IntroductionTest@47c62251]" name="afterTest" is-config="true" duration-ms="467" started-at="2019-11-09T12:12:20 CST" finished-at="2019-11-09T12:12:20 CST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qaminds.testget_apptive.RegistroTest@47c62251]" name="afterTest" is-config="true" duration-ms="769" started-at="2019-11-23T13:12:30 CST" finished-at="2019-11-23T13:12:31 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.qaminds.testget_apptive.IntroductionTest -->
+      </class> <!-- com.qaminds.testget_apptive.RegistroTest -->
     </test> <!-- MyTestAppium -->
   </suite> <!-- MySuiteAppium -->
 </testng-results>

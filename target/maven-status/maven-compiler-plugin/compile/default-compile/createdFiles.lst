@@ -1,4 +1,5 @@
 com/qaminds/pages/IntroductionPage.class
 com/qaminds/pages/BasePage.class
+com/qaminds/pages/RegistroPage.class
 com/qaminds/coreappium/MyDriverAppium.class
 com/qaminds/testget_apptive/App.class

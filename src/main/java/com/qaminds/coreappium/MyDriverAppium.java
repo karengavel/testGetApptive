@@ -28,6 +28,7 @@ public class MyDriverAppium {
 		caps.setCapability("appPackage", "com.tekiti.getapptive");
 		caps.setCapability("appActivity", "com.tekiti.getapptive.SplashActivity");
 		caps.setCapability("autoGrantPermissions", true);
+		caps.setCapability("noReset", true);
 		caps.setCapability("app", app.getAbsolutePath());
 
 		try {

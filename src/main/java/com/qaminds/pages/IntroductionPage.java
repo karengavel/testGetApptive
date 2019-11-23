@@ -35,12 +35,15 @@ public class IntroductionPage extends BasePage{
 	}
 	
 	public void siguiente() {
-		super.waitVisibility(By.id("intro_btn_next"));
+		waitVisibility(By.id("intro_btn_next"));
 		AndroidElement nextBtn = getDriver().findElementById("intro_btn_next");
 		nextBtn.click();
 	}
 	
-	
-
-
+	public void finalizar()
+	{
+		waitVisibility(By.id("com.tekiti.getapptive:id/intro_btn_finish"));
+		AndroidElement finishBtn = getDriver().findElementById("com.tekiti.getapptive:id/intro_btn_finish");
+		finishBtn.click();
+	}
 }

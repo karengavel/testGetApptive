@@ -1,0 +1,8 @@
+<suite name="MySuiteAppium">
+
+	<test name="MyTestAppium">
+		<classes>
+			<class name="com.qaminds.testget_apptive.RegistroTest"></class>	
+		</classes>
+	</test>
+</suite>
